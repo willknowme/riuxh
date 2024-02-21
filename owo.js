@@ -149,11 +149,11 @@ rpc.on("ready", () => {
         buttons: [
             {
                 label: "Farm Bot",
-                url: "https://github.com/Mid0aria/owofarmbot",
+                url: "https://github.com/willknowme/riuxh",
             },
             {
                 label: "Developer",
-                url: "https://github.com/Mid0aria/",
+                url: "https://github.com/willknowme/",
             },
         ],
     });
@@ -208,7 +208,7 @@ if (settings.discordrpc) {
 }
 
 console.log(
-    chalk.cyan("github.com/mid0aria\n") +
+    chalk.cyan("github.com/willknowme\n") +
         chalk.cyan("Made with love for e<3\n") +
         chalk.magenta("OwO Farm Bot Started") +
         chalk.blue(` version ${version}`)
@@ -219,14 +219,14 @@ if (settings.banbypass) {
     global.extrabanc = false;
 
     console.log(
-        chalk.yellow("Captcha (ban) Bypass System by Aix ") +
+        chalk.yellow("Captcha (ban) Bypass System") +
             chalk.blue(`version ${banversion}`)
     );
-    console.log(`{/__/}\n( ^ . ^)\n/ > ` + chalk.red("Captcha Bypass"));
+    console.log(`\n` + chalk.red("Captcha Bypass"));
 } else {
     global.mainbanc = true;
     global.extrabanc = true;
-    console.log(chalk.red(`{/__/}\n( • . •)\n/ > 🥒`));
+    console.log(chalk.red(`\n`));
 }
 
 //----------------------------------------------------Check Main Token----------------------------------------------------//
